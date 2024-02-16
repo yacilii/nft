@@ -12,12 +12,11 @@ main{
     padding: 40px 90px ;
 }
 .card {
-gap: 150px;
+gap: 20px;
 }
 .card .card__photo{
-       max-width: 370px;
-       height: 550px;
+       max-width: 330px;
+       height: 520px;
 }
 .card .card__photo:last-child{
-    display: none;
 }
