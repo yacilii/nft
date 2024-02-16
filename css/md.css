@@ -53,27 +53,20 @@ main{
 .card{
     display: flex;
     padding: 0 0 40px 0;
-    gap: 30px;
+    gap: 20px;
 }
 .card .card__photo{
-    max-width:300px;
+    min-width:300px;
     height: auto;
 }
-
-.card .card__photo .card__photo__aks{
-    flex: 1;
-}
 .card .card__photo .card__photo__aks .card__photo__aks__two{
-    width: 90px;
-    height: 90px;
-    flex: 1;
+    min-width: 88px;
+    min-height: 88px;
 }
 .card .card__photo .card__photo__aks .card__photo__aks__two:last-child{
-    width: 90px;
-    height: 90px;
-}
-.card .card__photo .card__photo__aks .card__photo__aks__two .card__photo__aks__two__purple{
-    font-size: 18px;
+    min-width: 95px;
+    min-height: 95px;
+    flex: 1;
 }
 /*top*/
 .top{
