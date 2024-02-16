@@ -235,6 +235,7 @@ main{
     margin-bottom: 15px;
     gap: 15px;
     align-self: stretch;
+    justify-content: space-between;
 }
 .card .card__photo .card__photo__aks .card__photo__aks__two{
     width: 100%;
