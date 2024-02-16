@@ -107,6 +107,7 @@ main{
 .card .card__photo .card__photo__aks .card__photo__aks__two:last-child{
     width: 100px;
     height: 100px;
+    flex: 0;
 }
 .card .card__photo .card__photo__aks .card__photo__aks__two .card__photo__aks__two__purple{
     font-size: 22px;
