@@ -1,0 +1,11 @@
+:root{ 
+    --Background : #2b2b2b;
+    --Background--Secondary:#3B3B3B;
+    --caption-label-text: #858584;
+    --caption--label-text: #858584;
+    --Text: #FFF;
+    --Call-to-Action: #A259FF;
+    --background-color--time: #3B3B3B80;
+    --gradient-2: linear-gradient(128deg, #A259FF 49.75%, #377DF7 136.56%);
+    --gradient-1: linear-gradient(101deg, #A259FF 13.57%, #FF6250 97.65%);
+}

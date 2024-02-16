@@ -1,0 +1,10 @@
+@import "../css/reset.css";
+@import "../css/colors.css";
+@import url(xxl.css) screen;
+@import url(xl.css) screen and (width < 1400px);
+@import url(lg.css) screen and (width < 1200px);
+@import url(md.css) screen and (width < 992px);
+@import url(sm.css) screen and (width < 768px);
+@import url(xs.css) screen and (width < 576px);
+
+

@@ -1,0 +1,23 @@
+/*main*/
+main{
+    padding: 0 90px;
+}
+.imaagess .imaagess__linear{
+    padding: 360px 120px 60px 120px;
+}
+.digest .digest__main{
+    gap: 70px;
+}
+.footer{
+    padding: 40px 90px ;
+}
+.card {
+gap: 150px;
+}
+.card .card__photo{
+       max-width: 370px;
+       height: 550px;
+}
+.card .card__photo:last-child{
+    display: none;
+}

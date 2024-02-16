@@ -1,0 +1,256 @@
+/*header*/
+header{
+    padding: 15px 50px;
+}
+header .menu{
+    display: none;
+}
+header .openMenu{
+    display: block;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+/*main*/
+main{
+    padding: 0 72px;
+}
+/*hero*/
+.hero .hero__text .hero__title{
+    font-size: 38px;
+}
+.hero .hero__text .hero__paragraph{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.hero .hero__text .hero__link{
+    margin-bottom: 20px;
+}
+.hero .hero__text .hero__stats .hero__stats__item .hero__stats__item__number{
+    font-size: 22px;
+}
+.hero .hero__text .hero__stats .hero__stats__item .hero__stats__item__name{
+    font-size: 16px;
+}
+.hero .hero__banner .hero__banner__img{
+    width: 100%;
+}
+.hero .hero__banner .hero__banner__img img{
+    aspect-ratio: 3.3/2.2;
+}
+/*trend*/
+.trend {
+    padding: 40px 0 0 0;
+    display: grid;
+    margin-bottom: 40px;
+}
+.trend .trend__Collection{
+    font-size: 28px;
+}
+.trend .trend__check{
+    font-size: 16px;
+}
+.card{
+    display: flex;
+    padding: 0 0 40px 0;
+    gap: 30px;
+}
+.card .card__photo{
+    max-width:300px;
+    height: auto;
+}
+
+.card .card__photo .card__photo__aks{
+    flex: 1;
+}
+.card .card__photo .card__photo__aks .card__photo__aks__two{
+    width: 90px;
+    height: 90px;
+    flex: 1;
+}
+.card .card__photo .card__photo__aks .card__photo__aks__two:last-child{
+    width: 90px;
+    height: 90px;
+}
+.card .card__photo .card__photo__aks .card__photo__aks__two .card__photo__aks__two__purple{
+    font-size: 18px;
+}
+/*top*/
+.top{
+    padding: 40px 0 0 0;
+    margin-bottom: 40px;
+}
+.top .top__text .top__text__creat{
+    font-size: 28px;
+}
+.top .top__text .top__text__check{
+    font-size: 16px;
+}
+/*artist*/
+.artist{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 0 80px 0;
+}
+.artist .artist__group{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+.artistcard{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    border-radius: 20px;
+    flex: 1;
+    padding: 20px;
+    position: relative;
+    gap: 20px;
+}
+.picdivartist{
+    width: 60px;
+    height: 60px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+.imgapicartist{
+    width: 60px;
+    height: 60px;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.artist__group__pic__text{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+.bigtext{
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-family: "Work Sans",sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30.8px;
+}
+.total{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.total .sale{
+    width: 100%;
+    text-align: left;
+    color: var(--caption--label-text);
+    font-family: "Work Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+.total .numi{
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-family: "Space-Mono",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+.artist__group__pic__num{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    text-align: center;
+    left: 15px;
+    background-color:var(--Background);
+}
+.picnumb{
+    width: 100%;
+    text-align: center;
+    color: var(--caption--label-text);
+    font-family: "Space-Mono",sans-serif;
+    font-size:16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    position: absolute;
+    top: 3px;
+}
+.whale{
+    display: none;
+}
+/*browse*/
+/*browse*/
+.browse{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.moreheight{
+    height: 92px;
+}
+.Categories{
+    padding: 0 0 40px 0;
+}
+/*explore*/
+.explore .explorenone{
+     display: none;
+}
+.explore .explor__child .explor__child__cap{
+    padding: 20px 30px 25px 30px;
+}
+/*qarch*/
+.imaagess{
+    height: 630px;
+}
+.imaagess .imaagess__linear{
+    padding: 360px 90px 60px 90px;
+}
+/*learn*/
+.learn{
+    padding: 0 0 40px 0;
+}
+.learn .learn__child{
+    padding: 10px 15px 30px 15px;
+}
+
+.learn .learn__child .learn__child__text .learntitle{
+    font-size:16px;
+}
+.learn .learn__child .learn__child__text .learntext{
+    font-size: 12px;
+}
+/*digest*/
+.digest .digest__main{
+    align-items: flex-start;
+}
+.digest .digest__main .digest__main__img{
+    width: 280px;
+    height: 280px;
+}
+.digest .digest__main .digest__main__img img{
+    width: 280px;
+    height: 280px;
+}
+.digest .digest__main .digest__main__text{
+    width: 260px;
+}
+.digest .digest__main .digest__main__text .digest__main__text__email .digest__main__text__email__purp{
+    padding: 0 30px;
+}
+/*footer*/
+.footer{
+    padding: 40px 72px ;
+}

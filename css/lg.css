@@ -1,0 +1,207 @@
+/*main*/
+main{
+    padding: 0 120px;
+}
+.card {
+    gap: 70px;
+    }
+ .card .card__photo:last-child{
+    display: none;
+}
+.card .card__photo{
+    max-width: 350px;
+    height: 540px;
+}
+.hero .hero__text .hero__title{
+    font-size: 50px;
+}
+.hero .hero__text .hero__paragraph{
+    font-size: 20px;
+}
+
+.hero .hero__text .hero__stats .hero__stats__item .hero__stats__item__number{
+    font-size: 23px;
+}
+.hero .hero__text .hero__stats .hero__stats__item .hero__stats__item__name{
+    font-size: 22px;
+}
+/*top*/
+.top{
+    margin-bottom: 40px;
+}
+/*artist*/
+.artist .artist__group{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+.artistcard{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    border-radius: 20px;
+    flex: 1;
+    padding: 20px;
+    position: relative;
+    gap: 50px;
+}
+.picdivartist{
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+.imgapicartist{
+    width: 90px;
+    height: 90px;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.bigtext{
+    width: 100%;
+    text-align: left;
+}
+.total{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.total .sale{
+    width: 100%;
+    text-align: left;
+}
+.artist__group__pic__num{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    left: 20px;
+    top: 15px;
+}
+.whale{
+    display: none;
+}
+/**/
+.everycat{
+    width: 150px;
+    height: 100%;
+}
+.arttext{
+    padding: 20px;
+}
+.arttext__cap{
+    font-size: 16px;
+}
+/*explore*/
+.explore .explor__child .explor__child__cap{
+    padding: 20px;
+}
+/*qarch*/
+.qarchtitle{
+    font-size: 38px;
+}
+.imaagess .imaagess__linear{
+    padding: 360px 120px 60px 120px;
+}
+/*learn*/
+.learn .learn__child{
+    padding: 10px 20px 30px 20px;
+}
+.learn .learn__child .learn__child__img img{
+    width:160px;
+    height: 160px;
+}
+/*digest*/
+.digest .digest__main{
+    gap: 30px;
+    padding: 40px 30px 40px 30px;
+}
+.digest .digest__main .digest__main__img{
+    width: 300px;
+    height: 280px;
+}
+.digest .digest__main .digest__main__img img{
+    width: 300px;
+    height: 280px;
+}
+.digesttitle{
+    font-size: 28px;
+    line-height: 39.2px;
+}
+.digesttext{
+    font-size: 16px;
+    line-height: 22.4px;
+}
+.digest .digest__main .digest__main__text .digest__main__text__email{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    gap: 16px;
+    background-color: transparent;
+    padding: 0;
+}
+.digest .digest__main .digest__main__text .digest__main__text__email .digest__main__text__email__name {
+    background-color: white;
+    width: 100%;
+    padding: 12.5px 20px;
+    border-radius: 20px;
+}
+.digest .digest__main .digest__main__text .digest__main__text__email .digest__main__text__email__purp{
+    width: 100%;
+    border-radius: 20px;
+    background: var(--Call-to-Action);
+    display: inline-flex;
+    height: 46px;
+    padding: 0 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    /* H5 - Work Sans */
+    font-family: "Work Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: 2px solid transparent;
+    transition: all 300ms linear;
+}
+.digest .digest__main .digest__main__text .digest__main__text__email .digest__main__text__email__purp:hover{
+    border: 2px solid var(--Call-to-Action);
+    background-color: transparent;
+}
+/*footer*/
+.footer{
+    padding: 40px 120px ;
+}
+.footer .footer__main{
+    gap: 50px;
+}
+.footer .footer__main .footer__main__nft{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.footer .footer__main .footer__main__nft .footer__main__nft__one{
+    width:100%;
+}
+.footer .footer__main .footer__main__nft .footer__main__nft__two{
+    width: 100%;
+}
+.footer .footer__main .footer__main__nft .footer__main__nft__two:nth-last-child(1){
+    width: 100%;
+}
