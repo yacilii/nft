@@ -15,7 +15,7 @@ main{
 gap: 20px;
 }
 .card .card__photo{
-       max-width: 330px;
-       height: 520px;
+       min-width: 330px;
+       height: auto;
 }
 
