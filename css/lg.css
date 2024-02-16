@@ -3,14 +3,14 @@ main{
     padding: 0 120px;
 }
 .card {
-    gap: 70px;
+    gap: 30px;
     }
  .card .card__photo:last-child{
     display: none;
 }
 .card .card__photo{
-    max-width: 350px;
-    height: 540px;
+    min-width: 330px;
+    height: auto;
 }
 .hero .hero__text .hero__title{
     font-size: 50px;
